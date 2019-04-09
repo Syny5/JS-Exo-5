@@ -1,7 +1,6 @@
 function formulaire()
 {
-  var nbr1 = firstNumber.value
-  var nbr2 = secondNumber.value
-  var reponse = nbr1 * nbr2
+  let nbr1 = firstNumber.value
+  let nbr2 = secondNumber.value
   alert(Math.trunc(nbr1) * (nbr2))
 }
