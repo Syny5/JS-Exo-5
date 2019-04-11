@@ -6,4 +6,5 @@ function compute()
   let nbr2 = document.getElementById('secondNumber').value
   alert(Math.trunc(nbr1) * (nbr2))
 }
-// Le trunc permet de dire "ne prend pas en compte le nombre après la virgule du premier champs"
+// Le trunc permet de dire "ne prends pas en compte le nombre après la virgule du premier champs"
+// C'est une méthode de l'objet Math
