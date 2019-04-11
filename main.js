@@ -2,7 +2,8 @@
 // Le calcul que nous voulons faire est décrit dans le alert
 function compute()
 {
-  let nbr1 = firstNumber.value
-  let nbr2 = secondNumber.value
+  let nbr1 = document.getElementById('firstNumber').value
+  let nbr2 = document.getElementById('secondNumber').value
   alert(Math.trunc(nbr1) * (nbr2))
 }
+// Le trunc permet de dire "ne prend pas en compte le nombre après la virgule du premier champs"
